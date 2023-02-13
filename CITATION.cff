@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Sinjorgo"
+  given-names: "Lennart"
+  orcid: "https://orcid.org/0000-0003-0516-6360"
+- family-names: "Sotirov"
+  given-names: "Renata"
+  orcid: "https://orcid.org/0000-0002-3298-7255"
+title: "On solving the MAX-SAT using sum of squares"
+version: 1.0
+date-released: 2023-2-8
+url: "https://github.com/LMSinjorgo/SDP-SOS_MAXSAT"
