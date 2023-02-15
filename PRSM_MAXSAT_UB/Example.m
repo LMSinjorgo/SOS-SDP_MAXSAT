@@ -34,7 +34,6 @@ PRSMinput = SOS_p_Parse(A,x,Q);
 % Note: 700-21 = 679
 LB = 679; 
 
-
 % specify the maximum number of PRSM iterations, or time spent (or both).
 maxIter = 600;
 maxTime = [];
@@ -46,5 +45,5 @@ epsilon = 0.0001;
 % output.
 printing = true;
 
-% compute the UB. See the function 'computeUB' for more details on parameters.
+% compute the UB. See the function 'PRSM' for more details on parameters.
 UB = PRSM(PRSMinput, LB, maxIter, maxTime, epsilon, printing);
