@@ -191,7 +191,7 @@ monomialSizes = uint8(full(sum(crossPairs,1)));
 groupSizes = zeros(numCrossPairs,1);
 % groupSizes keeps track of the number of indices per monomial
 if n > 4
-    allMonomials = zeros(n*(n-1)*(n-2)*(n-3) / 6,1);
+    allMonomials = zeros(sum(monomialSizes),1);
 else
     allMonomials = zeros(100,1);
 end
