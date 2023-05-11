@@ -4,7 +4,7 @@
 % Feb 2023
 % Tilburg, Netherlands
 
-% Compute an SOS-SDP based upper bound the MAX-SAT solution.
+% Compute a SOS-SDP based upper bound the MAX-SAT solution.
 clc
 clear
 
