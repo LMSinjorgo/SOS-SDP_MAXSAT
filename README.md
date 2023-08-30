@@ -1,9 +1,9 @@
-# On solving the MAX-SAT using sum of squares
+# On solving MAX-SAT using Sum of Squares
 ## By L. Sinjorgo and R. Sotirov (February, 2023)
 
 MATLAB implementation of the Peaceman-Rachford splitting method (PRSM) for computing bounds for the maximum-satisfiability problem (MAX-SAT).
 
-Includes functions for parsing MAX-SAT instances, as given by CNF files, into the format required by the PRSM. More details and numerical results are presented in the paper, available [here](https://arxiv.org/abs/2302.06931).
+Includes functions for parsing MAX-SAT instances, as given by CNF files, into the format required by the PRSM. More details and numerical results are presented in the paper, preprint available [here](https://arxiv.org/abs/2302.06931).
 
 Also includes the MATLAB implementation of the LOBPCG algorithm (``lobpcg.m``), as taken from <https://github.com/lobpcg/blopex>.
 
